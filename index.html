@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tip calculator app</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-image">
+        <img src="./assets/images/logo.svg" />
+      </nav>
+
+      <section>
+        <div class="section-main-div">
+          <div class="section-first-box">
+            <p class="all-para">Bill</p>
+            <div>
+              <button class="first-button">
+                <img src="./assets/images/icon-dollar.svg" />0
+              </button>
+            </div>
+            <div class="all-button-div">
+              <p class="all-para">Select tip %</p>
+              <button class="all-button">5%</button>
+              <button class="all-button">10%</button>
+              <button class="all-button">15%</button>
+              <button class="all-button">25%</button>
+              <button class="all-button">50%</button>
+              <button class="custom-button">custom</button>
+            </div>
+            <div>
+              <p class="all-para">Number of people</p>
+              <div>
+                <button class="last-button">
+                  <img src="./assets/images/icon-person.svg" />0
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="section-second-box">
+            <div class="second-inside-box">
+              <div class="second-box-first-para">
+                <p class="para">
+                  Tip Amount <span class="span-para">/person</span>
+                </p>
+                <p class="number">$0.00</p>
+              </div>
+              <div class="second-box-first-para">
+                <p class="para-second">
+                  Total <br /><span class="span-para">/person</span>
+                </p>
+                <p class="number">$0.00</p>
+              </div>
+              <div class="reset-div">
+                <button class="reset-button">RESET</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>
